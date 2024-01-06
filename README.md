@@ -1,1 +1,1 @@
-# predictive-modelling-classification
+# Classifying the kickstarter projects as success or failure
