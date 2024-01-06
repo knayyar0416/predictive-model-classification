@@ -1,13 +1,13 @@
 # Classifying the kickstarter projects as success or failure
 In this project, I built and tested 6 supervised machine learning algorithms including logistic regression, k-nearest neighbors, classification tree, random forest, gradient boosting and artificial neural network (ANN), to predict the success of kickstarter projects.
 
-🌐 About Kickstarter:
+## 🌐 About Kickstarter:
 [Kickstarter](https://www.kickstarter.com/) is a platform where creators share their project visions with the communities that will come together to fund them. 
 
-💼 Business Value:
+## 💼 Business Value:
 For Kickstarter's managament, predicting success means planning ahead. My model helps in predicting the success of projects, guiding staff picks, to select the projects worthy of the spotlight, which can increase the visibility and popularity of the platform.
 
-🛠️ Process Overview:
+## 🛠️ Process Overview:
 I followed these steps to build and test the models:
 1. 📊 Data Exploration:
    - Explored the data and found that US projects accounted for 71% of the data, so I grouped the other countries as ‘Non-US’.
@@ -24,5 +24,5 @@ I followed these steps to build and test the models:
 5. 🚀 Top Performer: The Gradient Boosting (GBT) Algorithm emerged as the top performer with the highest accuracy at 75.30%.
    💡 GBT generates a large number of trees, and through its sequential tree growth (every time learning from the tree one before it), it places greater emphasis on observations with large errors, making it well-suited for this context.
 
-🎉 Conclusion:
+## 🎉 Conclusion:
 I applied the GBT model to predict the state of projects in kickstarter_grading_df.xlsx, and achieved an accuracy of 74.34%, confirming its effectiveness as the best model.
