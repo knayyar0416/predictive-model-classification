@@ -2,7 +2,7 @@
 In this project, I built and tested 6 supervised machine learning algorithms including logistic regression, k-nearest neighbors, classification tree, random forest, gradient boosting and artificial neural network (ANN), to predict the success of kickstarter projects.
 
 🌐 About Kickstarter:
-Kickstarter is a platform where creators share their project visions with the communities that will come together to fund them. 
+[Kickstarter](https://www.kickstarter.com/) is a platform where creators share their project visions with the communities that will come together to fund them. 
 
 💼 Business Value:
 For Kickstarter's managament, predicting success means planning ahead. My model helps in predicting the success of projects, guiding staff picks, to select the projects worthy of the spotlight, which can increase the visibility and popularity of the platform.
