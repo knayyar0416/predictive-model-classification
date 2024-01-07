@@ -22,8 +22,6 @@ I followed these steps to build and test the models:
    - After separating the target 𝑠𝑡𝑎𝑡𝑒, I created dummies from 17 features, resulting in 39 predictors, and eliminated 3 having a correlation of 0.80 or higher. 
 4. 🤖 Model Training: After splitting the dataset, I trained six classification models, and chose accuracy as the primary performance metric to predict true success and failure. I also tested models by using LASSO features and PCA components, but since those gave me a lower accuracy for RF and GBT, I chose our initial list of features as final model.
 ![image](model-performance.png)
-
-
 6. 🚀 Top Performer: The Gradient Boosting (GBT) Algorithm emerged as the top performer with the highest accuracy at 75.30%. 
    💡 GBT generates a large number of trees, and through its sequential tree growth (every time learning from the tree one before it), it places greater emphasis on observations with large errors, making it well-suited for this context.
 
