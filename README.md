@@ -7,7 +7,7 @@ In this project, I built and tested 6 supervised machine learning algorithms inc
 ## 💼 Business Value:
 For Kickstarter's managament, predicting success means planning ahead. My model helps in predicting the success of projects, guiding staff picks, to select the projects worthy of the spotlight, which can increase the visibility and popularity of the platform.
 
-## 🛠️ Process Overview:
+## 🔄 Process Overview:
 I followed these steps to build and test the models:
 1. 📊 Data Exploration:
    - Explored the data and found that US projects accounted for 71% of the data, so I grouped the other countries as ‘Non-US’.
