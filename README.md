@@ -26,4 +26,4 @@ I followed these steps to build and test the models:
    💡 GBT generates a large number of trees, and through its sequential tree growth (every time learning from the tree one before it), it places greater emphasis on observations with large errors, making it well-suited for this context.
 
 ## 🎉 Conclusion:
-I applied the GBT model to predict the state of projects in kickstarter_grading_df.xlsx, and achieved an accuracy of 74.34%, confirming its effectiveness as the best model.
+I applied the GBT model to predict the state of projects in kickstarter_test_dataset.xlsx, and achieved an accuracy of 74.34%, confirming its effectiveness as the best model.
