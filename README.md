@@ -1,5 +1,5 @@
 # Classifying the kickstarter projects as success or failure
-In this project, I built and tested 6 supervised machine learning algorithms including logistic regression, k-nearest neighbors, classification tree, random forest, gradient boosting and artificial neural network (ANN), to predict the success of kickstarter projects.
+In this project, I built and tested 6 supervised machine learning algorithms including logistic regression, k-nearest neighbors, classification tree, random forest (RF), gradient boosting (GBT) and artificial neural network (ANN), to predict the success of kickstarter projects.
 
 ## 🌐 About Kickstarter:
 [Kickstarter](https://www.kickstarter.com/) is a platform where creators share their project visions with the communities that will come together to fund them. 
@@ -22,7 +22,7 @@ I followed these steps to build and test the models:
    - After separating the target 𝑠𝑡𝑎𝑡𝑒, I created dummies from 17 features, resulting in 39 predictors, and eliminated 3 having a correlation of 0.80 or higher. 
 4. 🤖 Model Training: After splitting the dataset, I trained six classification models, and chose accuracy as the primary performance metric to predict true success and failure. Further, I each of the 6 models for LASSO selected features and PCA se;ected components, but since those gave me a lower accuracy for RF and GBT, I chose our initial list of features as final model.
 ![image](model-performance.png)
-6. 🚀 Top Performer: The Gradient Boosting (GBT) Algorithm emerged as the top performer with the highest accuracy at 75.30%. 
+6. 🚀 Top Performer: The Gradient Boosting (GBT) algorithm emerged as the top performer with the highest accuracy at 75.30%. 
    💡 GBT generates a large number of trees, and through its sequential tree growth (every time learning from the tree one before it), it places greater emphasis on observations with large errors, making it well-suited for this context.
 
 ## 🎉 Conclusion:
