@@ -30,6 +30,6 @@ I applied the GBT model to predict the state of projects in kickstarter_test_dat
 
 ## 🔗 Supporting files
 - 👩‍💻 [Python script for final selected classification model](kickstarter-selected-classification-model.py)
-- 👩‍💻 [Python script for 6 classification models and 3 feature sets](kickstarter-all-classification-models (6 models-3 feature sets).py)
+- 👩‍💻 [Python script for 6 classification models and 3 feature sets](kickstarter-all-classification-models-6 models-3 feature sets.py)
 - 📁 [Entire dataset](kickstarter.xlsx), [Test dataset](kickstarter-test-dataset.xlsx) and [Data Dictionary](kickstarter-test-dataset.xlsx)
 - 📊 [Data exploration and other charts](Images)
