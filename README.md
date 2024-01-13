@@ -24,7 +24,7 @@ I followed these steps to build and test the models:
 ![image](Images/model-performance.png)
 6. 🚀 Top Performer: The Gradient Boosting (GBT) algorithm emerged as the top performer with the highest accuracy at 75.30%.
    
-💡 GBT generates a large number of trees, and through its sequential tree growth (every time learning from the tree one before it), it places greater emphasis on observations with large errors, making it well-suited for this context.
+   💡 GBT generates a large number of trees, and through its sequential tree growth (every time learning from the tree one before it), it places greater emphasis on observations with large errors, making it well-suited for this context.
 
 ## 🎉 Conclusion
 I applied the GBT model to predict the state of projects in kickstarter_test_dataset.xlsx, and achieved an accuracy of 74.34%, confirming its effectiveness as the best model.
